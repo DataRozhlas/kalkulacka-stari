@@ -1,5 +1,5 @@
 ﻿import "./byeie"; // loučíme se s IE
-
+import "./kalkulacka.jsx";
 /*
 // snadné načtení souboru pro každého!
 fetch("https://blabla.cz/blabla.json")
