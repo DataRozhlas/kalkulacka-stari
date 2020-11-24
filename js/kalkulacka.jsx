@@ -1,135 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-const otazky = [
-  {
-    otazka:
-      "Obáváte se, že se ve stáří budete hůř pohybovat a nedokážete si sami dojít, kam potřebujete?",
-    odpovedi: [
-      "již to zažívám",
-      "určitě ano",
-      "spíše ano",
-      "spíše ne",
-      "vůbec ne",
-      "vůbec na to nemyslím",
-    ],
-    body: [1, 1, 1, 1, 1, 1],
-  },
-  {
-    otazka: "Obáváte se, že budete ve stáří osamělí?",
-    odpovedi: [
-      "již to zažívám",
-      "určitě ano",
-      "spíše ano",
-      "spíše ne",
-      "vůbec ne",
-      "vůbec na to nemyslím",
-    ],
-    body: [1, 1, 1, 1, 1, 1],
-  },
-  {
-    otazka:
-      "Obáváte se, že budete ve stáří vystaveni šikaně nebo domácímu násilí?",
-    odpovedi: [
-      "již to zažívám",
-      "určitě ano",
-      "spíše ano",
-      "spíše ne",
-      "vůbec ne",
-      "vůbec na to nemyslím",
-    ],
-    body: [1, 1, 1, 1, 1, 1],
-  },
-  {
-    otazka: "Obáváte se, že ve stáří budete chudí?",
-    odpovedi: [
-      "již to zažívám",
-      "určitě ano",
-      "spíše ano",
-      "spíše ne",
-      "vůbec ne",
-      "vůbec na to nemyslím",
-    ],
-    body: [1, 1, 1, 1, 1, 1],
-  },
-  {
-    otazka:
-      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb penzijní připojištění?",
-    odpovedi: [
-      "ano, jako hlavní zdroj",
-      "ano, jako důležitý zdroj",
-      "ano, jako okrajový zdroj",
-      "ne",
-    ],
-    body: [1, 1, 1, 1],
-  },
-  {
-    otazka:
-      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb zaměstnání či podnikání?",
-    odpovedi: [
-      "ano, jako hlavní zdroj",
-      "ano, jako důležitý zdroj",
-      "ano, jako okrajový zdroj",
-      "ne",
-    ],
-    body: [1, 1, 1, 1],
-  },
-  {
-    otazka: "Cvičíte, věnujete se pravidelně nějakému sportu?",
-    odpovedi: ["ano", "ne"],
-    body: [1, 1],
-  },
-  {
-    otazka: "Zajímáte se o prevenci či očkování?",
-    odpovedi: ["ano", "ne"],
-    body: [1, 1],
-  },
-  {
-    otazka:
-      "Jak často pomáháte sousedům či známým? Například a zahradě, při opravách nemovitostí, s nákupy nebo jako doprovod při různých pochůzkách...",
-    odpovedi: [
-      "denně",
-      "několikrát týdně",
-      "několikrát za měsíc",
-      "několikrát za rok nebo méně často",
-      "nikdy",
-    ],
-    body: [1, 1, 1, 1, 1],
-  },
-  {
-    otazka:
-      "Jak často se účastníte aktivit v zájmových organizacích, například v církvi, v klubu důchodců nebo v politickém hnutí?",
-    odpovedi: [
-      "denně",
-      "několikrát týdně",
-      "několikrát za měsíc",
-      "několikrát za rok nebo méně často",
-      "nikdy",
-    ],
-    body: [1, 1, 1, 1, 1],
-  },
-  {
-    otazka: "Kolik je vám let?",
-    odpovedi: [
-      "19 - 29 let",
-      "30 - 45 let",
-      "46 - 59 let",
-      "60 - 69 let",
-      "70 a více",
-    ],
-    body: [1, 1, 1, 1, 1],
-  },
-];
+import otazky from "./otazky";
+import hodnoceni from "./hodnoceni";
 
 const App = () => {
   const [odpovedi, setOdpovedi] = React.useState(otazky.map((o) => null));
   const [otazka, setOtazka] = React.useState(0);
+  const [vek, setVek] = React.useState(null);
+  const [vnimaniRizik, setVnimaniRizik] = React.useState(0);
+  const [strategie, setStrategie] = React.useState(0);
 
   if (otazka < otazky.length) {
     return (
       <div className="quiz-container">
         <div className="quiz-body">
-          <div className="question-text">{otazky[otazka].otazka}</div>
+          <div
+            className="question-text"
+            dangerouslySetInnerHTML={{ __html: otazky[otazka].otazka }}
+          ></div>
           <div className="button-options">
             {otazky[otazka].odpovedi.map((o, i) => {
               return (
@@ -142,6 +30,10 @@ const App = () => {
                     setOdpovedi(zmenenyOdpovedi);
                     const dalsiOtazka = otazka + 1;
                     setOtazka(dalsiOtazka);
+                    otazka < 4
+                      ? setVnimaniRizik(vnimaniRizik + otazky[otazka].body[i])
+                      : setStrategie(strategie + otazky[otazka].body[i]);
+                    otazka === 10 ? setVek(i) : null;
                   }}
                 >
                   {o}
@@ -150,10 +42,38 @@ const App = () => {
             })}
           </div>
         </div>
+        <pre>
+          Otázka {otazka + 1}, Vnímání rizik {vnimaniRizik}, Strategie:{" "}
+          {strategie}
+        </pre>
       </div>
     );
   } else {
-    return <div className="quiz-container">Vyhodnocení, woe</div>;
+    const aktivni = strategie < 10;
+    const vysokeVnimaniRizika =
+      vnimaniRizik < 8 && vek === 0 ? false : vnimaniRizik < 9 ? false : true;
+    let skupina;
+      switch (aktivni) {
+      case true:
+        skupina = vysokeVnimaniRizika ? 3 : 0;
+        break;
+      case false:
+        skupina = vysokeVnimaniRizika ? 1 : 2;
+    }
+
+    return (
+      <div className="quiz-container">
+        <div className="quiz-body">
+          <div className="quiz-result-text">
+            <div>
+              <p><strong>{hodnoceni[vek][skupina].name}</strong></p>
+              <p>{hodnoceni[vek][skupina].desc}</p>
+              <p>{hodnoceni[vek][skupina].recom}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 };
 
