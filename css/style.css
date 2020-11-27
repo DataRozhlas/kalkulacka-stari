@@ -3,7 +3,7 @@ html {
 }
 
 .quiz-container {
-  min-height: 686px;
+  min-height: 580px;
   width: 100%;
   border: 1px solid #ccc;
   display: flex;
@@ -276,9 +276,20 @@ html {
 .quiz-buttons {
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ccc;
+}
+
+.progress-bar {
+    background-color: #ccc;
+    height: 3px;
+    width: 100%;
+}
+.progress-bar-status {
+    background-color: black;
+    height: 3px;
 }
 
 .quiz-buttons-back {
@@ -286,8 +297,9 @@ html {
 }
 
 .quiz-buttons-step {
-  width: 33%;
+  width: 100%;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .quiz-buttons-next {
@@ -344,7 +356,7 @@ html {
 
 @media only screen and (max-width: 600px) {
   .quiz-container {
-    min-height: 670px;
+    min-height: 520px;
   }
   .category {
     padding: 0 10px;

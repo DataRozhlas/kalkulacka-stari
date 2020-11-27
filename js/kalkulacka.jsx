@@ -44,7 +44,9 @@ const App = () => {
           </div>
         </div>
         <div className="quiz-buttons">
-          <div className="quiz-buttons-step">Otázka <strong>{otazka + 1} z {otazky.length}</strong>
+          <div className="quiz-buttons-step">Otázka <strong>{otazka + 1} z {otazky.length}</strong></div>
+          <div className="progress-bar">
+              <div className="progress-bar-status" style={{width: otazka/otazky.length * 100 + '%'}}></div>
           </div>
         </div>
       </div>
