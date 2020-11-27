@@ -17,9 +17,16 @@ const App = () => {
           <div className="quiz-body">
             <div
               className="question-text"
-              dangerouslySetInnerHTML={{ __html: otazky[otazka].otazka + (otazka === 0 ? '<span class="question-assure">Odpovědi na tuto ani další otázky se nikam neodesílají.</span>' : '') }}
-            >
-            </div>
+              dangerouslySetInnerHTML={{
+                __html:
+                  "<div>" +
+                  otazky[otazka].otazka +
+                  "</div>" +
+                  (otazka === 0
+                    ? '<div class="question-assure">Odpovědi na tuto ani další otázky se nikam neodesílají.</div>'
+                    : ""),
+              }}
+            ></div>
             <div className="button-options">
               {otazky[otazka].odpovedi.map((o, i) => {
                 return (
@@ -54,7 +61,7 @@ const App = () => {
             <div className="progress-bar">
               <div
                 className="progress-bar-status"
-                style={{ width: (otazka / otazky.length) * 100 + "%" }}
+                style={{ width: ((otazka + 1) / otazky.length) * 100 + "%" }}
               ></div>
             </div>
           </div>
@@ -89,6 +96,23 @@ const App = () => {
               </p>
               <p>{hodnoceni[vek][skupina].desc}</p>
               <p>{hodnoceni[vek][skupina].recom}</p>
+            </div>
+          </div>
+          <div className="quiz-buttons noborder">
+            <div className="quiz-buttons-next">
+              <button
+                className="quiz-button quiz-button-step quiz-button-fwd"
+                type="button"
+                onClick={() => {
+                    setOdpovedi(otazky.map(() => null));
+                    setOtazka(0);
+                    setVek(null);
+                    setVnimaniRizik(0);
+                    setStrategie(0);
+                }}
+              >
+                Vyplnit znovu
+              </button>
             </div>
           </div>
         </div>

@@ -303,7 +303,11 @@ html {
 }
 
 .quiz-buttons-next {
-  width: 33%;
+  width: 45%;
+}
+
+.noborder {
+    border-top: none;
 }
 
 .quiz-buttons-fb {

@@ -1,7 +1,7 @@
 const otazky = [
   {
     otazka:
-      "Obáváte se, že se ve stáří budete hůř pohybovat a nedokážete si sami dojít, kam potřebujete?",
+      "Obáváte se, že až budete staří, <strong>nedokážete si sami dojít, kam budete potřebovat</strong>?",
     odpovedi: [
       "určitě ano",
       "spíše ano",
@@ -12,30 +12,7 @@ const otazky = [
     body: [4, 3, 2, 1, 0],
   },
   {
-    otazka: "Obáváte se, že budete ve stáří osamělí?",
-    odpovedi: [
-      "určitě ano",
-      "spíše ano",
-      "spíše ne",
-      "vůbec ne",
-      "vůbec na to nemyslím",
-    ],
-    body: [4, 3, 2, 1, 0],
-  },
-  {
-    otazka:
-      "Obáváte se, že budete ve stáří vystaveni šikaně nebo domácímu násilí?",
-    odpovedi: [
-      "určitě ano",
-      "spíše ano",
-      "spíše ne",
-      "vůbec ne",
-      "vůbec na to nemyslím",
-    ],
-    body: [4, 3, 2, 1, 0],
-  },
-  {
-    otazka: "Obáváte se, že ve stáří budete chudí?",
+    otazka: "Obáváte se, že budete ve stáří <strong>osamělí</strong>?",
     odpovedi: [
       "určitě ano",
       "spíše ano",
@@ -47,7 +24,30 @@ const otazky = [
   },
   {
     otazka:
-      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb penzijní připojištění?",
+      "Obáváte se, že budete ve stáří vystaveni <strong>šikaně nebo domácímu násilí</strong>?",
+    odpovedi: [
+      "určitě ano",
+      "spíše ano",
+      "spíše ne",
+      "vůbec ne",
+      "vůbec na to nemyslím",
+    ],
+    body: [4, 3, 2, 1, 0],
+  },
+  {
+    otazka: "Obáváte se, že <strong>budete chudí</strong>, až budete staří?",
+    odpovedi: [
+      "určitě ano",
+      "spíše ano",
+      "spíše ne",
+      "vůbec ne",
+      "vůbec na to nemyslím",
+    ],
+    body: [4, 3, 2, 1, 0],
+  },
+  {
+    otazka:
+      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb <strong>penzijní připojištění</strong>?",
     odpovedi: [
       "ano, jako hlavní zdroj",
       "ano, jako důležitý zdroj",
@@ -58,7 +58,7 @@ const otazky = [
   },
   {
     otazka:
-      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb zaměstnání či podnikání?",
+      "Plánujete si v důchodovém věku vydělávat v <strong>zaměstnání či podnikáním</strong>?",
     odpovedi: [
       "ano, jako hlavní zdroj",
       "ano, jako důležitý zdroj",
@@ -68,18 +68,18 @@ const otazky = [
     body: [1, 1, 2, 2],
   },
   {
-    otazka: "Cvičíte, věnujete se pravidelně nějakému sportu?",
+    otazka: "Cvičíte, věnujete se <strong>pravidelně nějakému sportu</strong>?",
     odpovedi: ["ano", "ne"],
     body: [1, 2],
   },
   {
-    otazka: "Zajímáte se o prevenci či očkování?",
+    otazka: "Zajímáte se <strong>aktivně o prevenci zdravotních problémů</strong>, například o očkování?",
     odpovedi: ["ano", "ne"],
     body: [1, 2],
   },
   {
     otazka:
-      "Jak často pomáháte sousedům či známým? Například a zahradě, při opravách nemovitostí, s nákupy nebo jako doprovod při různých pochůzkách...",
+      "Jak často <strong>pomáháte sousedům či známým</strong>? Například a zahradě, při opravách nemovitostí, s nákupy nebo jako doprovod při různých pochůzkách...",
     odpovedi: [
       "denně",
       "několikrát týdně",
@@ -91,7 +91,7 @@ const otazky = [
   },
   {
     otazka:
-      "Jak často se účastníte aktivit v zájmových organizacích, například v církvi, v klubu důchodců nebo v politickém hnutí?",
+      "Jak často se účastníte <strong>aktivit v zájmových organizacích</strong>, například v církvi, v klubu důchodců nebo v politickém hnutí?",
     odpovedi: [
       "denně",
       "několikrát týdně",
