@@ -12,6 +12,7 @@ const App = () => {
 
   if (otazka < otazky.length) {
     return (
+        <div>
       <div className="quiz-container">
         <div className="quiz-body">
           <div
@@ -42,10 +43,12 @@ const App = () => {
             })}
           </div>
         </div>
-        <pre>
-          Otázka {otazka + 1}, Vnímání rizik {vnimaniRizik}, Strategie:{" "}
-          {strategie}
-        </pre>
+        <div className="quiz-buttons">
+          <div className="quiz-buttons-step">Otázka <strong>{otazka + 1} z {otazky.length}</strong>
+          </div>
+        </div>
+      </div>
+      <div><pre>Vnímání rizik: {vnimaniRizik}, Strategie: {strategie}</pre></div>
       </div>
     );
   } else {
