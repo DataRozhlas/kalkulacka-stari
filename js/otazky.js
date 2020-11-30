@@ -79,7 +79,7 @@ const otazky = [
   },
   {
     otazka:
-      "Jak často <strong>pomáháte sousedům či známým</strong>? Například a zahradě, při opravách nemovitostí, s nákupy nebo jako doprovod při různých pochůzkách...",
+      "Jak často <strong>pomáháte sousedům či známým</strong>? Například na zahradě, při opravách nemovitostí, s nákupy nebo jako doprovod při různých pochůzkách...",
     odpovedi: [
       "denně",
       "několikrát týdně",
