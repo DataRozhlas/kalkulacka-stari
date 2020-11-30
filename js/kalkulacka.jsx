@@ -66,11 +66,11 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div>
+        {/*        <div>
           <pre>
             Vnímání rizik: {vnimaniRizik}, Strategie: {strategie}
           </pre>
-        </div>
+        </div> */}
       </div>
     );
   } else {
@@ -90,29 +90,45 @@ const App = () => {
       <div className="quiz-container">
         <div className="quiz-body">
           <div className="quiz-result-text">
+            <h3
+              dangerouslySetInnerHTML={{ __html: hodnoceni[vek][skupina].name }}
+            ></h3>
             <div>
               <p>
-                <strong>{hodnoceni[vek][skupina].name}</strong>
+                <em
+                  className="result-perex"
+                  dangerouslySetInnerHTML={{
+                    __html: hodnoceni[vek][skupina].share,
+                  }}
+                ></em>
               </p>
-              <p>{hodnoceni[vek][skupina].desc}</p>
-              <p>{hodnoceni[vek][skupina].recom}</p>
             </div>
+            <div
+              dangerouslySetInnerHTML={{ __html: hodnoceni[vek][skupina].desc }}
+            ></div>
+            <h4>Doporučení ekonomů</h4>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: hodnoceni[vek][skupina].recom,
+              }}
+            ></div>
           </div>
           <div className="quiz-buttons noborder">
             <div className="quiz-buttons-next">
+              <a href="#kalkulacka">
               <button
                 className="quiz-button quiz-button-step quiz-button-fwd"
                 type="button"
                 onClick={() => {
-                    setOdpovedi(otazky.map(() => null));
-                    setOtazka(0);
-                    setVek(null);
-                    setVnimaniRizik(0);
-                    setStrategie(0);
+                  setOdpovedi(otazky.map(() => null));
+                  setOtazka(0);
+                  setVek(null);
+                  setVnimaniRizik(0);
+                  setStrategie(0);
                 }}
               >
                 Vyplnit znovu
-              </button>
+              </button></a>
             </div>
           </div>
         </div>

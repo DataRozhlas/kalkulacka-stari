@@ -91,7 +91,7 @@ const otazky = [
   },
   {
     otazka:
-      "Jak často se účastníte <strong>aktivit v zájmových organizacích</strong>, například v církvi, v klubu důchodců nebo v politickém hnutí?",
+      "Jak často se účastníte <strong>aktivit v zájmových organizacích</strong> jako jsou například dobrovolní hasiči, charitativní organizace či politická hnutí?",
     odpovedi: [
       "denně",
       "několikrát týdně",
