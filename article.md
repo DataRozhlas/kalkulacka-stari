@@ -54,4 +54,4 @@ V odpovědích na některé otázky se starší a mladší respondenti odlišova
 ## Stáří se bojíme, ale nemluvíme o něm
 Některá zjištění studie pak vyznívají paradoxně. Velká část repondentů spoléhá na to, že se o ně ve stáří postarají jejich vlastní děti, ale skoro vůbec o tom s nimi nekomunikují. Zároveň ovšem mají obavu, že na ně nezbyde místo v domově důchodců.
 
-„Mají strach z pravdy. Bojí se, že by se mohli dozvědět, že na ně jejich vlastní děti nebudou mít čas. Nechtějí odkrýt karty, a tak se radši svěří do péče státu. To je tristní zjištění,“ interpretuje data Frič. „Právě proto tímto chceme výzkumem otevřít dialog mezi veřejností, státní správou, experty a neziskovými organizacemi.“
+„Mají strach z pravdy. Bojí se, že by se mohli dozvědět, že na ně jejich vlastní děti nebudou mít čas. Nechtějí odkrýt karty, a tak se radši svěří do péče státu. To je tristní zjištění,“ interpretuje data Frič. „Výzkum jsme dělali také proto, aby se veřejnost, státní správa, experti a neziskové organizace začali o stárnutí otevřeně a věcně bavit.“
