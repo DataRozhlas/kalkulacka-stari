@@ -11,8 +11,8 @@ options: [] #wide, noheader (, nopic)
 <right>
 <h4>O výzkumu</h4>
 <p>Typologie přístupů ke stáří vychází z dat, která na vzorku <b>1814 respondentů</b> ještě před vypuknutím pandemie koronaviru sesbírali sociologové z <a href="https://ceses.cuni.cz/CESES-474.html">Centra pro sociální a ekonomické strategie Fakulty sociálních věd UK</a>.</p>
-
 <p>Respondenty vybrali s ohledem na kraj, velikost místa bydliště, pohlaví, věk a vzdělání, aby byly <b>reprezentativní pro celou populaci ČR starší 18 let</b>. Tazatelé kladli otázky osobně, jeden rozhovor trval v průměru 50 minut.</p>
+<p>Výzkum financovala <a href="https://starfos.tacr.cz/cs/project/TL01000491?query_code=7hbqaacjd3ra">Technologická agentura ČR</a></p>
 </right>
 
 Zatímco *ostražití hlídači* si rizika a problémy spojené s pokročilým věkem silně uvědomují a svědomitě se na ně připravují, *odevzdaní trpitelé* na ně sice myslí, ale nechtějí nebo nemohou se proti nim lépe zabezpečit. *Bezstarostní jezdci* o vlastním stáří raději moc nepřemýšlejí a tedy se na něj ani nepřipravují. *Spontánní aktivisté* se podobnými myšlenkami také příliš nezatěžují, mají ale aktivní životní styl, který je před strastmi života v důchodu sám o sobě do značné míry chrání.
@@ -54,4 +54,4 @@ V odpovědích na některé otázky se starší a mladší respondenti odlišova
 ## Stáří se bojíme, ale nemluvíme o něm
 Některá zjištění studie pak vyznívají paradoxně. Velká část repondentů spoléhá na to, že se o ně ve stáří postarají jejich vlastní děti, ale skoro vůbec o tom s nimi nekomunikují. Zároveň ovšem mají obavu, že na ně nezbyde místo v domově důchodců.
 
-„Mají strach z pravdy. Bojí se, že by se mohli dozvědět, že na ně jejich vlastní děti nebudou mít čas. Nechtějí odkrýt karty, a tak se radši svěří do péče státu. To je tristní zjištění,“ interpretuje data Frič.
+„Mají strach z pravdy. Bojí se, že by se mohli dozvědět, že na ně jejich vlastní děti nebudou mít čas. Nechtějí odkrýt karty, a tak se radši svěří do péče státu. To je tristní zjištění,“ interpretuje data Frič. „Právě proto tímto chceme výzkumem otevřít dialog mezi veřejností, státní správou, experty a neziskovými organizacemi.“
