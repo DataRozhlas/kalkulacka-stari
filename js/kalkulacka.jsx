@@ -3,6 +3,20 @@ import ReactDOM from "react-dom";
 import otazky from "./otazky";
 import hodnoceni from "./hodnoceni";
 
+
+
+if (window.innerWidth < 600) {
+  const graf1 = document.querySelector("#graf1");
+  graf1.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf1m.svg';
+  const graf2 = document.querySelector("#graf2");
+  graf2.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf2m.svg';
+  const graf3 = document.querySelector("#graf3");
+  graf3.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf3m.svg';
+  const graf4 = document.querySelector("#graf4");
+  graf4.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf4m.svg';
+}
+
+
 const App = () => {
   const [odpovedi, setOdpovedi] = React.useState(otazky.map((o) => null));
   const [otazka, setOtazka] = React.useState(0);
