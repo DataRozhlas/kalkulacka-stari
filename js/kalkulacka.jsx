@@ -120,7 +120,7 @@ const App = () => {
             <div
               dangerouslySetInnerHTML={{ __html: hodnoceni[vek][skupina].desc }}
             ></div>
-            <h4>Doporučení ekonomů</h4>
+            <h4>Doporučení sociologů</h4>
             <div
               dangerouslySetInnerHTML={{
                 __html: hodnoceni[vek][skupina].recom,

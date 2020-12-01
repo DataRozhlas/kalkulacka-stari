@@ -33,7 +33,7 @@ Autoři studie upozorňují, že důchodový věk bývá v médiích zobrazován
 
 <img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf2.svg" class="img" id="graf2">
 
-Z dat vyplývá, že více než nedostatku peněz se lidé při plánování vlastního důchodu bojí například ztráty řidičského průkazu, fyzické bolesti či úbytku duševních sil. V těsném závěsu za chudobou je pak v obavách lidí osamělost a nedostatek sexu.
+Z dat vyplývá, že více než chudoby se lidé při plánování vlastního důchodu bojí například ztráty řidičského průkazu, fyzické bolesti či úbytku duševních sil. V těsném závěsu za chudobou je pak v obavách lidí osamělost a nedostatek sexu.
 
 ## Překvapení u mladých
 
