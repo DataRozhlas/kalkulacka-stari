@@ -17,7 +17,7 @@ options: [] #wide, noheader (, nopic)
 
 Zatímco *ostražití hlídači* si rizika a problémy spojené s pokročilým věkem silně uvědomují a svědomitě se na ně připravují, *odevzdaní trpitelé* na ně sice myslí, ale nechtějí nebo nemohou se proti nim lépe zabezpečit. *Bezstarostní jezdci* o vlastním stáří raději moc nepřemýšlejí a tedy se na něj ani nepřipravují. *Spontánní aktivisté* se podobnými myšlenkami také příliš nezatěžují, mají ale aktivní životní styl, který je před strastmi života v důchodu sám o sobě do značné míry chrání.
 
-V interaktivní kalkulačce můžete odpovědět na jedenáct otázek vybraných z výzkumu. Právě ony se při statistické analýze ukázaly jako nejsilnější indikátory toho, do které skupiny respondenti patří. Na konci si pak můžete přečíst doporučení ekonomů pro vaši vaši věkovou skupinu a typ přístupu k zabezpečení na stáří.
+V interaktivní kalkulačce můžete odpovědět na jedenáct otázek vybraných z výzkumu. Právě ony se při statistické analýze ukázaly jako nejsilnější indikátory toho, do které skupiny respondenti patří. Na konci si pak můžete přečíst doporučení ekonomů pro vaši věkovou skupinu a typ přístupu k zabezpečení na stáří.
 
 <div id="kalkulacka"> </div>
 
