@@ -7,7 +7,7 @@ libraries: [] #jquery, d3, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
 
-<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf1.png">
+<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf1.png" width="100%">
 <right>
 <h4>O výzkumu</h4>
 <p>Typologie přístupů ke stáří vychází z dat, která na vzorku <b>1814 respondentů</b> ještě před vypuknutím pandemie koronaviru sesbírali ekonomové z <a href="https://ceses.cuni.cz/CESES-474.html">Centra pro sociální a ekonomické strategie Fakulty sociálních věd UK</a>.</p>
@@ -33,13 +33,13 @@ Autoři studie upozorňují, že důchodový věk bývá v médiích zobrazován
 
 Z dat vyplývá, že více než nedostatku peněz se lidé při plánování vlastního důchodu bojí například ztráty řidičského průkazu, fyzické bolesti či úbytku duševních sil. V těsném závěsu za chudobou je pak v obavách lidí osamělost a nedostatek sexu.
 
-<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf4.png">
+<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf4.png" width="100%">
 
 ## Překvapení u mladých
 
 Překvapivým zjištěním studie je, že rozdělení do čtyř skupin se příliš neliší v závislosti na věku respondentů. „U mladších respondentů jsme očekávali, že budou rizika stáří spíš ignorovat, protože jsou pro ně příliš vzdálená. Ale ukázalo se, že jejich postoje se od starších lidí zase tolik neliší,“ říká další z autorů výzkumu Petr Witz.
 
-<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf2.png">
+<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf2.png" width="100%">
 
 Podobné výsledky měli i ženy a muži, naopak velké rozdíly byly v tom, jak odpovídali lidé vzdělanější a majetnější. Vzdělanější lidé méně spoléhají na to, že státem vyplácená penze bude ve stáří jejich hlavním zdrojem příjmů.  
 
@@ -47,7 +47,7 @@ Podobné výsledky měli i ženy a muži, naopak velké rozdíly byly v tom, jak
 
 V odpovědích na některé otázky se starší a mladší respondenti odlišovali výrazněji: Se stoupajícím věkem poměrně rychle ubývá lidí, kteří svůj důchod představují jako čas pro cestování, poznávání nových věcí a koníčky. Naopak přibývá těch, kdo se na něj těší jako na čas odpočinku, rozjímání a pohody s knihou či u televize.
 
-<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf3.png">
+<img src="https://data.irozhlas.cz/kalkulacka-stari/img/graf3.png" width="100%">
 
 „Celkově jsme při vyhodnocování výzkumu narazili na velkou bezradnost a nedostatek komunikace. Je tu velká skupina lidí, kteří si s představou vlastního *křehkého stáří* nevědí rady,“ shrnuje výsledky dotazování Petr Witz.
 
@@ -55,5 +55,3 @@ V odpovědích na některé otázky se starší a mladší respondenti odlišova
 Některá zjištění studie pak vyznívají paradoxně. Velká část repondentů spoléhá na to, že se o ně ve stáří postarají jejich vlastní děti, ale skoro vůbec o tom s nimi nekomunikují. Zároveň ovšem mají obavu, že na ně nezbyde místo v domově důchodců.
 
 „Mají strach z pravdy. Bojí se, že by se mohli dozvědět, že na ně jejich vlastní děti nebudou mít čas. Nechtějí odkrýt karty, a tak se radši svěří do péče státu. To je tristní zjištění,“ interpretuje data Frič.
-
-
