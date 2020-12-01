@@ -1,5 +1,5 @@
 title: "Jste odevzdaní trpitelé, nebo bezstarostní jezdci? Kalkulačka poradí, jak se připravit na stáří"
-perex: "Jak si představujete svůj život v důchodovém věku? Jak moc se tato představa liší od vašeho ideálu? A co děláte pro to, abyste se mu přiblížili? To jsou základní otázky nového výzkumu sociologů z Karlovy univerzity. Na základě odpovědí rozdělili společnost do čtyř skupin podle přístupu k vlastnímu stáří. Ve spolupráci s datovými novináři serveru iROZHLAS.cz pak připravili interaktivní kalkulačku, která vám ukáže, do které skupiny patříte – a poradí, co můžete změnit, abyste se na závěrečnou etapu života připravili co nejlépe."
+perex: "Jak si představujete svůj život v důchodovém věku? Jak moc se tato představa liší od vašeho ideálu? A co děláte pro to, abyste se mu přiblížili? To jsou základní otázky nového výzkumu sociologů z Karlovy univerzity. Na základě odpovědí rozdělili společnost do čtyř skupin podle přístupu k vlastnímu stáří. Ve spolupráci s datovými novináři serveru iROZHLAS.cz pak připravili interaktivní kalkulačku, která vám ukáže, do které skupiny patříte – a poradí, co můžete změnit, abyste se na stáří připravili co nejlépe."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/stari_201130-120346_pek.jpg?itok=Dp96hwgW
 coverimg_note: "Foto archiv"
 styles: []
