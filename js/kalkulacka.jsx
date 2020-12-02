@@ -3,19 +3,16 @@ import ReactDOM from "react-dom";
 import otazky from "./otazky";
 import hodnoceni from "./hodnoceni";
 
-
-
 if (window.innerWidth < 600) {
   const graf1 = document.querySelector("#graf1");
-  graf1.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf1m.svg';
+  graf1.src = "https://data.irozhlas.cz/kalkulacka-stari/img/graf1m.svg";
   const graf2 = document.querySelector("#graf2");
-  graf2.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf2m.svg';
+  graf2.src = "https://data.irozhlas.cz/kalkulacka-stari/img/graf2m.svg";
   const graf3 = document.querySelector("#graf3");
-  graf3.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf3m.svg';
+  graf3.src = "https://data.irozhlas.cz/kalkulacka-stari/img/graf3m.svg";
   const graf4 = document.querySelector("#graf4");
-  graf4.src = 'https://data.irozhlas.cz/kalkulacka-stari/img/graf4m.svg';
+  graf4.src = "https://data.irozhlas.cz/kalkulacka-stari/img/graf4m.svg";
 }
-
 
 const App = () => {
   const [odpovedi, setOdpovedi] = React.useState(otazky.map((o) => null));
@@ -126,23 +123,32 @@ const App = () => {
                 __html: hodnoceni[vek][skupina].recom,
               }}
             ></div>
+            <div>
+              <p>
+                Další rady a informace najdete v{" "}
+                <a href="https://data.irozhlas.cz/kalkulacka-stari/img/manual.pdf">
+                  Manuálu přípravy na stáří pro občany
+                </a>
+              </p>
+            </div>
           </div>
           <div className="quiz-buttons noborder">
             <div className="quiz-buttons-next">
               <a href="#kalkulacka">
-              <button
-                className="quiz-button quiz-button-step quiz-button-fwd"
-                type="button"
-                onClick={() => {
-                  setOdpovedi(otazky.map(() => null));
-                  setOtazka(0);
-                  setVek(null);
-                  setVnimaniRizik(0);
-                  setStrategie(0);
-                }}
-              >
-                Vyplnit znovu
-              </button></a>
+                <button
+                  className="quiz-button quiz-button-step quiz-button-fwd"
+                  type="button"
+                  onClick={() => {
+                    setOdpovedi(otazky.map(() => null));
+                    setOtazka(0);
+                    setVek(null);
+                    setVnimaniRizik(0);
+                    setStrategie(0);
+                  }}
+                >
+                  Vyplnit znovu
+                </button>
+              </a>
             </div>
           </div>
         </div>
