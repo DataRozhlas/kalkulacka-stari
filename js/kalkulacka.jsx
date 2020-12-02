@@ -126,7 +126,7 @@ const App = () => {
             <div>
               <p>
                 Další rady a informace najdete v{" "}
-                <a href="https://data.irozhlas.cz/kalkulacka-stari/img/manual.pdf">
+                <a href="https://data.irozhlas.cz/kalkulacka-stari/img/manual.pdf" target="_blank">
                   Manuálu přípravy na stáří pro občany
                 </a>
               </p>
