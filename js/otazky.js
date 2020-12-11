@@ -47,7 +47,7 @@ const otazky = [
   },
   {
     otazka:
-      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb <strong>penzijní připojištění</strong>?",
+      "Plánujete využívat v důchodovém věku pro financování svých životních potřeb <strong>penzijní připojištění či doplňkové penzijní spoření</strong>?",
     odpovedi: [
       "ano, jako hlavní zdroj",
       "ano, jako důležitý zdroj",
